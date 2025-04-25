@@ -59,8 +59,16 @@ export const readCar = async (
 ): Promise<{ roots: CID[]; blocks: BlockMap }> => {
   const { roots, blocks } = await readCarStream([bytes])
   const blockMap = new BlockMap()
+  let blockCount = 0;
   for await (const block of blocks) {
     blockMap.set(block.cid, block.bytes)
+    if (blockCount++%100 === 0) {
+      // Every 100 records let the event loop run again so we don't block the main thread
+      // This is needed because just an await without there being any IO keeps processing
+      // the pending tasks and doesn't allow other phases of the event loop (like timers)
+      // to run
+      await new Promise(resolve => setImmediate(resolve));
+    }
   }
   return { roots, blocks: blockMap }
 }
