@@ -1,5 +1,22 @@
 # @atproto/dev-env
 
+## 0.3.129
+
+### Patch Changes
+
+- Updated dependencies [[`cc485d296`](https://github.com/bluesky-social/atproto/commit/cc485d29638488928b5efec3d4b0627040589812), [`cc485d296`](https://github.com/bluesky-social/atproto/commit/cc485d29638488928b5efec3d4b0627040589812)]:
+  - @atproto/common-web@0.4.2
+  - @atproto/lexicon@0.4.11
+  - @atproto/api@0.15.6
+  - @atproto/identity@0.4.8
+  - @atproto/pds@0.4.135
+  - @atproto/bsky@0.0.148
+  - @atproto/ozone@0.1.109
+  - @atproto/sync@0.1.23
+  - @atproto/xrpc-server@0.7.18
+  - @atproto/bsync@0.0.19
+  - @atproto/crypto@0.4.4
+
 ## 0.3.128
 
 ### Patch Changes

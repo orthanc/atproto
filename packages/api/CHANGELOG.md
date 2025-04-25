@@ -1,5 +1,14 @@
 # @atproto/api
 
+## 0.15.6
+
+### Patch Changes
+
+- Updated dependencies [[`cc485d296`](https://github.com/bluesky-social/atproto/commit/cc485d29638488928b5efec3d4b0627040589812), [`cc485d296`](https://github.com/bluesky-social/atproto/commit/cc485d29638488928b5efec3d4b0627040589812)]:
+  - @atproto/common-web@0.4.2
+  - @atproto/lexicon@0.4.11
+  - @atproto/xrpc@0.6.13
+
 ## 0.15.5
 
 ### Patch Changes

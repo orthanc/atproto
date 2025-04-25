@@ -1,5 +1,22 @@
 # @atproto/pds
 
+## 0.4.135
+
+### Patch Changes
+
+- Updated dependencies [[`cc485d296`](https://github.com/bluesky-social/atproto/commit/cc485d29638488928b5efec3d4b0627040589812)]:
+  - @atproto/lexicon@0.4.11
+  - @atproto/oauth-provider@0.7.6
+  - @atproto/api@0.15.6
+  - @atproto/common@0.4.11
+  - @atproto/identity@0.4.8
+  - @atproto/repo@0.8.1
+  - @atproto/xrpc@0.6.13
+  - @atproto/xrpc-server@0.7.18
+  - @atproto/aws@0.2.21
+  - @atproto/crypto@0.4.4
+  - @atproto-labs/xrpc-utils@0.0.14
+
 ## 0.4.134
 
 ### Patch Changes
